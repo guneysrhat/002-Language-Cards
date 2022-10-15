@@ -1,5 +1,12 @@
+import Card from "./componenets/Card";
+import Header from "./componenets/Header";
+
 function App() {
-  return <h1>APP</h1>;
+  return <>
+  <Header/>
+  <Card/>
+  
+  </>;
 }
 
 export default App;
