@@ -1,12 +1,14 @@
 import Card from "./componenets/Card";
 import Header from "./componenets/Header";
+import Container from "react-bootstrap/Container";
 
 function App() {
-  return <>
-  <Header/>
-  <Card/>
-  
-  </>;
+  return (
+    <Container className="text-center mt-4">
+      <Header />
+      <Card />
+    </Container>
+  );
 }
 
 export default App;
