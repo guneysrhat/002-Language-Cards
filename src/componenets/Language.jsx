@@ -8,7 +8,7 @@ const Language = ({ name, img, options }) => {
   console.log(showDesc);
   return (
     <Container
-      className="rounded-3 p-4 h-100 land-card"
+      className="rounded-3 p-4 h-100 lang-card"
       style={{ background: "peachpuff" }}
       onClick={() => setShowDesc(!showDesc)}
       type="button"
