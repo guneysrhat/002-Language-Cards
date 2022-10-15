@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
-const Language = () => {
-  return (
-    <div>Language</div>
-  )
-}
+const Language = ({ name, img, options }) => {
+  //console.log(lang);
+  return <div>Language</div>;
+};
 
-export default Language
+export default Language;
